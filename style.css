@@ -1,0 +1,18 @@
+body{
+    background: rgba(134, 169, 224, 0.2);
+}
+
+div{
+    background: green;
+}
+
+h1{
+    background: pink;
+    color: black;
+}
+
+p{
+    background: purple;
+    color: white;
+    font-style: italic;
+}
