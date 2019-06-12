@@ -1,5 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
 body{
-    background: rgba(134, 169, 224, 0.2);
+    background: url(https://cdn-images-1.medium.com/max/800/1*c94SpnDXD8imHLUW0fl-ng.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 16px;
 }
 
 div{
@@ -9,10 +19,72 @@ div{
 h1{
     background: pink;
     color: black;
+    border: 5px blue dotted;
+    border-radius: 10px;
 }
 
 p{
     background: purple;
     color: white;
     font-style: italic;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;    /*<!-- width color style 3 ü birlikte kullanılmalı -->*/
+    /* tek seferde yazmak için border: 3px black solid; */
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+li{
+    border: 2px yellow ridge;
+}
+
+.pink{
+    background: pink;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.box_1 {
+    width: 6em;
+    height: 6em;
+    margin: 40px 50px;
+    padding: 20px 15px;
+    border: 5px black dashed;
+}
+
+.box_2 {
+    margin: 30px 20px;
+    padding: 40px 10px;
+    border: 10px green ridge;
+}
+
+.box_3{
+    margin: 10px 200px;
+    padding: 5px 100px;
+    border: 20px purple dotted;
+    display: inline-block; 
+}
+
+.box_4{
+    display: inline-block;
+    margin: 20px 30px;
+    padding: 25px 35px;
+}
+
+#box{
+    background-image: none;
+    background-color: white;
+}
+
+#white{
+    background: white;   /* #id overrides .class */
+}
+
+h1,li{
+    background: yellow;
 }
